@@ -1,3 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.movie-detail {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 4px 30px;
+}
+
 .App {
   text-align: center;
 }
